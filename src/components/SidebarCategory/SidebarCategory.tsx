@@ -10,7 +10,7 @@ const SidebarCategory = () => {
   const [category, setCategory] = useState([
     { id: '1', name: 'Easy' },
     { id: '2', name: 'Medium' },
-    { id: '3', name: 'Hard' }, // Cambié el id del tercer elemento para que sea único
+    { id: '3', name: 'Hard' },
   ])
 
   const handleToogleSidebar: MouseEventHandler = (event) => {
